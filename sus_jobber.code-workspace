@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "debug.internalConsoleOptions": "neverOpen",
+    "html.validate.styles": false,
+    "python.defaultInterpreterPath": "${workspaceRoot}/.venv/bin/python",
+    "terminal.integrated.env.linux": {
+      "PYTHONPATH": "${workspaceRoot}/src",
+      "POETRY_VIRTUALENVS_IN_PROJECT": "true",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "editor.formatOnSave": true,
+    "[python]": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+      },
+      "editor.formatOnType": true
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}/src"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.black-formatter",
+      "ms-python.python",
+      "prettier-vscode.prettier-vscode"
+    ]
+  }
+}

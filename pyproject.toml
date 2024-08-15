@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sus-jobber"
+version = "0.1.0"
+description = ""
+authors = ["natechurch <bulla@colossus>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+azure-identity = "^1.17.1"
+openai = "^1.40.6"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

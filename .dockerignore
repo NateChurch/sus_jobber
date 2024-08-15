@@ -1,0 +1,12 @@
+venv/
+.git/
+.idea/
+flask_session/
+.venv/
+.run/
+.vscode/
+.venv-wsl/
+src/.env
+.venv
+
+
